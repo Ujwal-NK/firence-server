@@ -1,0 +1,13 @@
+cffi==1.15.0
+click==8.0.3
+cryptography==36.0.1
+Flask==2.0.2
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+onetimepad==1.4
+pycparser==2.21
+pymongo==4.0.1
+pysqlitecipher==0.22
+Werkzeug==2.0.2
+XlsxWriter==3.0.2
