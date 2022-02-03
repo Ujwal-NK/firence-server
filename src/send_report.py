@@ -13,8 +13,7 @@ subject = "Daily Report"
 body = "Respected Sir / Madam, \n Please Please find attached the attendance sheet for " + str(date.today()) + ". \nPlease contact your admin for any corrections. \n\nThis is an automatically generated data sheet and requires no signature"
 json_dump = get_cred.get()
 sender_email = json_dump["id"]
-receiver_email = "ujwal2nk@gmail.com"
-# receiver_email = "rishilghurki07@gmail.com"
+receiver_email = "your_email@gmail.com"
 password =  json_dump["password"]
 
 # Create a multipart message and set headers
